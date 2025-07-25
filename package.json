@@ -1,7 +1,7 @@
 {
   "name": "valkream-function-lib",
   "description": "Une librairie de fonctions utiles pour le développement de gestionnaire de serveur",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "author": "Valkream Team",
   "main": "index.js",
   "dependencies": {

@@ -20,9 +20,8 @@ function getAllFilesInAFolder(dirPath) {
     return results;
   } catch (err) {
     console.error("❌ Erreur lors de la lecture du dossier :", dirPath, err);
+    return [];
   }
-
-  return arrayOfFiles;
 }
 
 module.exports = { getAllFilesInAFolder };
